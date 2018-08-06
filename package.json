@@ -4,7 +4,7 @@
   "description": "基于 Nodejs 简单的自动化命令行工具",
   "main": "index.js",
   "bin": {
-    "weflow": "bin/webflow"
+    "wflow": "bin/wflow.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/haokur/webflow-cli/issues"
   },
-  "homepage": "https://github.com/haokur/webflow-cli#readme"
+  "homepage": "https://github.com/haokur/webflow-cli#readme",
+  "dependencies": {
+    "commander": "^2.17.0",
+    "inquirer": "^5.2.0"
+  },
+  "devDependencies": {
+  }
 }
