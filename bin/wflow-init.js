@@ -9,21 +9,8 @@ const exec = require('child_process').exec;
 const { isExistDir$ } = require('../lib/file')
 const { loadingStart, loadingSuccess, loadingFail } = require('../lib/loading')
 const download = require('../lib/downloader')
-
-// 合并用户和应用默认的配置
-const processRunDir = process.cwd();
-
-var wflowDefaultConf = require('../config/wflow.default.config')
-var wflowUserConf = {};
-
-try {
-  wflowUserConf = require(processRunDir + '/wflow.config.js')
-}
-catch (e) {
-  // console.log('没有用户自定义配置')
-}
-var wflowConf = Object.assign(wflowDefaultConf, wflowUserConf)
-const { downloadUrls } = wflowConf
+const { mergeConfig } = require('../config')
+const { downloadUrls } = mergeConfig()
 
 commander.usage('<project-name>').parse(process.argv)
 
