@@ -1,0 +1,23 @@
+{
+  "name": "webflow-cli",
+  "version": "1.0.0",
+  "description": "基于 Nodejs 简单的自动化命令行工具",
+  "main": "index.js",
+  "bin": {
+    "weflow": "bin/webflow"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haokur/webflow-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haokur/webflow-cli/issues"
+  },
+  "homepage": "https://github.com/haokur/webflow-cli#readme"
+}
