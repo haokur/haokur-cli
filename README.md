@@ -27,3 +27,12 @@ npm link
 
 []三大前端框架起始项目生成
 []自动生成模板
+
+
+### 3.基本使用
+
+registry=https://registry.npm.taobao.org/
+ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+phantomjs_cdnurl=http://npm.taobao.org/mirrors/phantomjs
+registry=http://registry.npmjs.org
