@@ -2,6 +2,8 @@
 
 ### 1.运行
 
+-   源代码安装运行
+
 > 未发布 npm 包,仅支持本地安装.
 
 1.1 下载源码
@@ -20,6 +22,16 @@ npm install . -g
 
 ```
 npm link
+```
+
+-   npm 全局安装运行
+
+```shell
+# 安装
+npm i webflow-cli -g
+
+# 测试
+wflow ip
 ```
 
 ### 2.初步构想
@@ -83,8 +95,11 @@ module.exports = {
 
 2. 需要根据配置在项目下新建一个 `tpl` 文件夹
 
-```html
-tpl/ | ├── cpt.tpl.vue | ├── page.tpl.vue | └── style.tpl.scss
+```shell
+tpl/
+|   |   ├── cpt.tpl.vue
+|   |   ├── page.tpl.vue
+|   |   └── style.tpl.scss
 ```
 
 3. 在项目根目录可运行命令

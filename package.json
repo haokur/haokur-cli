@@ -1,6 +1,6 @@
 {
     "name": "webflow-cli",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "基于 Nodejs 简单的自动化命令行工具",
     "main": "index.js",
     "bin": {
