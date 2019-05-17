@@ -1,0 +1,10 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/src/components/Scroller/module/*.js
+/src/components/Scroller/*.vue
+/src/mock/
+/src/util/ajax/
+/cypress/*
