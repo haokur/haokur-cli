@@ -1,10 +1,14 @@
 > wflow , web flow ; 将日常开发繁琐的工作用工具替代
 
-### 1.运行
+## 1.运行
 
--   源代码安装运行
+### npm 安装运行
 
-> 未发布 npm 包,仅支持本地安装.
+```shell
+npm install webflow -g
+```
+
+### 源代码安装运行
 
 1.1 下载源码
 
@@ -34,7 +38,7 @@ npm i webflow-cli -g
 wflow ip
 ```
 
-### 2.初步构想
+## 2.初步构想
 
 2.1 实现功能
 
@@ -43,12 +47,12 @@ wflow ip
 
 ### 3.基本使用
 
--   `wflow static` 实现静态站点支持 typescript 转 js, scss 转 css.
 -   `wflow ip` 查看当前电脑 IP 地址
 -   `wflow init` 初始化项目
 -   `wflow kill` 杀进程
 -   `wflow tree` 文件夹文件树打印查看
 -   `wflow g` 生成项目文件
+-   `wflow static` 实现静态站点支持 typescript 转 js, scss 转 css.
 
 #### `wflow g` 生成项目文件
 
@@ -95,7 +99,7 @@ module.exports = {
 
 2. 需要根据配置在项目下新建一个 `tpl` 文件夹
 
-```shell
+```html
 tpl/
 |   |   ├── cpt.tpl.vue
 |   |   ├── page.tpl.vue
